@@ -74,7 +74,7 @@ client.on('messageCreate', (message) => {
 });
 
 // log in to the bot with your token
-client.login('MTEwNzIwOTE2MjIyOTgyNTYyNw.GtJzfZ.b3vBzoqSgtz5-vZVg6adGzW0-5fTzSm9CkYgFk');
+client.login('TOKEN');
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server is listening on port ${port}`));
